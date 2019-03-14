@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/dallasdoubledoodles/static/js/runtime~main.619e5f2e.js"
   },
   {
-    "revision": "d7e25bef6704e118c504",
-    "url": "/dallasdoubledoodles/static/js/main.d7e25bef.chunk.js"
+    "revision": "ad8436f666fbc81ea258",
+    "url": "/dallasdoubledoodles/static/js/main.ad8436f6.chunk.js"
   },
   {
     "revision": "518f773fc454461cb03e",
     "url": "/dallasdoubledoodles/static/js/2.518f773f.chunk.js"
   },
   {
-    "revision": "d7e25bef6704e118c504",
-    "url": "/dallasdoubledoodles/static/css/main.7998878f.chunk.css"
+    "revision": "ad8436f666fbc81ea258",
+    "url": "/dallasdoubledoodles/static/css/main.f144aacf.chunk.css"
   },
   {
     "revision": "518f773fc454461cb03e",
     "url": "/dallasdoubledoodles/static/css/2.be7a806d.chunk.css"
   },
   {
-    "revision": "f6d10ddec00d0286fc897aa01439a725",
+    "revision": "2043b3977e526a1020e15ba6d6d2796b",
     "url": "/dallasdoubledoodles/index.html"
   }
 ];
