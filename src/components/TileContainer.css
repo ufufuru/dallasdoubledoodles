@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.TileContainer {
+    height: 25vh;
+}
+
+.Tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+}
+
+.Tile img {
+    max-width: 150px;
+}
+
+.Tile h3 {
+    font-family: 'Bree Serif', serif;
+}
+
+.Green {
+    background-color: rgb(173, 255, 173);
+    border-bottom: 5px solid rgb(81, 134, 81);
+}
+
+.Blue {
+    background-color: rgb(153, 172, 255);
+    border-bottom: 5px solid rgb(93, 106, 165);
+}
+
+.Orangee {
+    background-color: rgb(255, 216, 157);
+    border-bottom: 5px solid rgb(201, 160, 98);
+}
+
+.Purple {
+    background-color: rgb(204, 172, 255);
+    border-bottom: 5px solid rgb(155, 126, 202);
+}
+
+.NoBorder {
+    border: none;
+}

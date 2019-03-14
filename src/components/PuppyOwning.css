@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.PuppyOwning h2 {
+    font-family: 'Bree Serif', serif;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.PuppyOwning p {
+    font-family: 'Karla', sans-serif;
+}
+
+.DogCosts {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.PuppyOwning {
+    padding: 50px 0;
+}

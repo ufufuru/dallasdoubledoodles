@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.InfoContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.InfoContainer h1 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.InfoContainer ul {
+    list-style: none;
+}
+
+.InfoContainer p {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.1rem;
+}
+
+.InfoContainer li {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4rem;
+}
+
+.DDImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DDImg img {
+    max-width: 450px;
+    border-radius: 15px;
+}

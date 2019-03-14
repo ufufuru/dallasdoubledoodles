@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.DogCostsTable {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+Table {
+    width: 50vw !important;
+    background-color:rgb(109, 167, 187);
+}
+
+Table th { 
+    color: rgb(255, 178, 34);
+    font-family: 'Karla', sans-serif;
+}
+
+Table td {
+    color: white;
+    font-family: 'Karla', sans-serif
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 1 !important;
+  }
+  .close:hover {
+    opacity: 0.5 !important;
+    cursor: pointer;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  .slider {
+    animation: slideIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translate3d(-500rem, 0, 500rem);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    Table {
+      font-size: .7rem;
+    }
+    Table td {
+      padding: 5px !important;
+    }
+  }

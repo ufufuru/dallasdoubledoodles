@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.FooterContainer {
+    background-image: url(../assets/curls.png);
+    background-repeat: repeat;
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterContainer p {
+    margin-bottom: 0;
+    color: rgb(128, 128, 128);
+    font-family: 'Karla', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+}

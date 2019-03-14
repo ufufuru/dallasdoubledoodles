@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.PuppyBox {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.closePuppy {
+    position: absolute;
+    right: 32px;
+    top: 62px;
+    width: 32px;
+    height: 32px;
+  }
+  .closePuppy:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .closePuppy:before, .closePuppy:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: black;
+  }
+  .closePuppy:before {
+    transform: rotate(45deg);
+  }
+  .closePuppy:after {
+    transform: rotate(-45deg);
+  }
+
+  .slider {
+    animation: slideIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translate3d(-500rem, 0, 500rem);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+.PuppyInfo {
+  background-image: url(../assets/stitched_wool.png);
+  background-repeat: repeat;
+  padding: 20px;
+  border-radius: 20px;
+  border: black 2px solid;
+}
+
+.PuppyInfo h1 {
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+}
+
+.PuppyInfo p {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2rem;
+}
+
+.PuppyImage {
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+}
+
+.PuppyImage img {
+  max-width: 60vw;
+  max-height: 60vh;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .PuppyInfo p {
+    font-size: .8rem;
+  }
+
+  .PuppyInfo {
+    border: none;
+    height: 100vh;
+  }
+
+  .PuppyInfo h1 {
+    font-size: 1.5rem;
+  }
+
+  .PuppyInfo img {
+    max-height: 30vh;
+  }
+}

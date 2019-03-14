@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.Contracts h2 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+.Contracts p, .Contracts h4 {
+    font-family: 'Karla', sans-serif;
+}
+
+.Contracts p {
+    font-size: .8rem;
+}
+
+.Application {
+    padding-bottom: 50px;
+}
+
+Label {
+    font-family: 'Karla', sans-serif;
+}
+
+.Application Button {
+    background-color: rgb(153, 172, 255);
+}

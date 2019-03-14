@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.Money {
+    background-color: rgb(173, 255, 173);
+}
+
+.Medicine {
+    background-color: rgb(153, 172, 255);
+}
+
+.Food {
+    background-color: rgb(255, 216, 157);
+}
+
+.Training {
+    background-color: rgb(204, 172, 255);
+}
+
+.TileResult p {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 50px 0;
+    width: 65vw;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif
+}
+
+@media screen and (max-width: 750px) {
+    .TileResult p {
+        padding: 300px 0 50px 0;
+    }
+  }

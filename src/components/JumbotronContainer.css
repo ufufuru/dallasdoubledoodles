@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+.JumboNav {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/wallpaper.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.nav {
+    margin-left: auto !important;
+}
+
+.nav-link {
+    color: rgb(73, 134, 226);
+    font-family: 'Bree Serif', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-item {
+    display: flex !important;
+}
+
+.jumbotron {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+}
+
+.JumboText {
+    text-align: center;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.JumboText h1 {
+    font-size: 6rem;
+    color: rgb(0, 102, 255);
+}
+
+.JumboText p {
+    font-size: 2rem;
+    color: rgb(73, 134, 226);
+}
+
+.Orange {
+    color: orange;
+}
+
+@media screen and (max-width: 750px) {
+    .JumboText h1 {
+        font-size: 4rem;
+    }
+    .JumboText p {
+        font-size: 2rem;
+        color: rgb(73, 134, 226);
+    }
+}

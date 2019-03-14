@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+.PhotoContainer {
+    text-align: center;
+    background-image: url(../assets/cloudy-day.png);
+    background-repeat: repeat;
+    padding-bottom: 50px;
+}
