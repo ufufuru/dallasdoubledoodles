@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "bf5a1701a4541b353ea5525c1b64e123",
-    "url": "/dallasdoubledoodles/static/media/wallpaper.bf5a1701.jpeg"
+    "revision": "deda0b15d65bce751909c63b1e90a5a1",
+    "url": "/dallasdoubledoodles/static/media/wallpaper.deda0b15.jpeg"
   },
   {
     "revision": "b76787987b478332913d76a9ef14dc8c",
@@ -12,23 +12,23 @@ self.__precacheManifest = [
     "url": "/dallasdoubledoodles/static/js/runtime~main.619e5f2e.js"
   },
   {
-    "revision": "daaad04cac999e260524",
-    "url": "/dallasdoubledoodles/static/js/main.daaad04c.chunk.js"
+    "revision": "d4a1c9a3f36a8dada7f5",
+    "url": "/dallasdoubledoodles/static/js/main.d4a1c9a3.chunk.js"
   },
   {
     "revision": "518f773fc454461cb03e",
     "url": "/dallasdoubledoodles/static/js/2.518f773f.chunk.js"
   },
   {
-    "revision": "daaad04cac999e260524",
-    "url": "/dallasdoubledoodles/static/css/main.4e6b42d6.chunk.css"
+    "revision": "d4a1c9a3f36a8dada7f5",
+    "url": "/dallasdoubledoodles/static/css/main.2a1d5d55.chunk.css"
   },
   {
     "revision": "518f773fc454461cb03e",
     "url": "/dallasdoubledoodles/static/css/2.be7a806d.chunk.css"
   },
   {
-    "revision": "0d75487e5f8d74d4e273359ba6a9317c",
+    "revision": "9fc7dc948d2cc14dfe239619b6474ad3",
     "url": "/dallasdoubledoodles/index.html"
   }
 ];
