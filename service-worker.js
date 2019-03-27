@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dallasdoubledoodles/precache-manifest.84014096c34aa1f2b50d84c3e3c7522a.js"
+  "/dallasdoubledoodles/precache-manifest.1a0c81ae7524eee76ece46d647708337.js"
 );
 
 workbox.clientsClaim();
