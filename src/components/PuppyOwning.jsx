@@ -12,8 +12,7 @@ function PuppyOwning(props) {
                     puppies will be reviewed in detail to assure puppies are matched with the right family. Puppies do grow
                     up and require a great deal of time, attention, love and training right from the start which are all
                     required throughout your dog’s life. My husband will tell you we feed our dogs one cup of TLC each day
-                    along with Fromm dog food. We have included a range for costs of owning a dog, which you can review 
-                    <span className="DogCosts" onClick={props.openCosts}>here</span> so you know your financial commitment when
+                    along with Fromm dog food. We have included a range for costs of owning a dog, which you can review <span className="DogCosts" onClick={props.openCosts}>here</span> so you know your financial commitment when
                     you add a dog to your family.<br/><br/>
 
                     Our goal is produce happy, healthy, easy going temperaments that help with the transition of our
