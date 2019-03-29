@@ -9,7 +9,7 @@ function Contracts(props) {
             <Container>
                 <Row>
                     <Col className="Application">
-                        <Form action="https://formspree.io/Christiane.Bell@bswhealth.org" method="POST">
+                        <Form action="https://formspree.io/dallasdoubledoodles@gmail.com" method="POST">
                             <Row form>
                                 <Col md={3}>
                                     <FormGroup>
@@ -207,6 +207,13 @@ function Contracts(props) {
                     <p>
                                 Buyer understands that seller has the right of first refusal if buyer decides the puppy/dog is not a good
                                 fit for their family and will return the puppy/dog without a refund so buyer can find a suitable home.
+                    </p>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <p className="email">
+                        If you would like to contact us without filling out an application, you can reach us at <a href="mailto:dallasdoubledoodles@gmail.com">dallasdoubledoodles@gmail.com</a>
                     </p>
                 </Col>
             </Row>
