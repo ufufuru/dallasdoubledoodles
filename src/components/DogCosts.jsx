@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col, Table } from 'reactstrap'
+import { Table } from 'reactstrap'
 import './DogCosts.css'
 
 function DogCosts(props) {
-    if (props.costsOpened == false) return null 
+    if (props.costsOpened === false) return null 
     return(
         <div className="DogCostsTable slider" id="philosophy" onClick={props.closeCosts}>
-            <a className="close"></a>
+            <a className="close" attribute="attrobute"></a>
             <Table>
                 <thead>
                     <tr>

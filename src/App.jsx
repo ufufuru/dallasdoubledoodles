@@ -10,6 +10,7 @@ import DogCosts from './components/DogCosts'
 import TileContainer from './components/TileContainer'
 import FooterContainer from './components/FooterContainer'
 import TileResult from './components/TileResult'
+import DogFood from './components/DogFood'
 import Contracts from './components/Contracts'
 import imageList from './assets/imageList'
 import './App.css';
@@ -30,7 +31,8 @@ class App extends Component {
           comment: null
         },
         costsOpened: false,
-        openedTile: "money"
+        openedTile: "money",
+        foodOpened: false
     }
     this.openPuppy = this.openPuppy.bind(this)
     this.closePuppy = this.closePuppy.bind(this)
@@ -39,6 +41,8 @@ class App extends Component {
     this.openCosts = this.openCosts.bind(this)
     this.closeCosts = this.closeCosts.bind(this)
     this.openTile = this.openTile.bind(this)
+    this.openFood = this.openFood.bind(this)
+    this.closeFood = this.closeFood.bind(this)
   }
 
   openPuppy(name, info, image) {
@@ -68,7 +72,14 @@ class App extends Component {
 
   openTile(tile) {
     this.setState({ openedTile: tile })
-    console.log(this.state.openedTile)
+  }
+
+  openFood() {
+    this.setState({ foodOpened: true })
+  }
+
+  closeFood() {
+    this.setState({ foodOpened: false })
   }
 
   render() {
@@ -83,7 +94,8 @@ class App extends Component {
         <PuppyOwning openCosts={this.openCosts}/>
         <DogCosts costsOpened={this.state.costsOpened} closeCosts={this.closeCosts}/>
         <TileContainer openTile={this.openTile} openedTile={this.state.openedTile}/>
-        <TileResult openedTile={this.state.openedTile}/>
+        <TileResult openedTile={this.state.openedTile} foodOpened={this.state.foodOpened} openFood={this.openFood}/>
+        <DogFood foodOpened={this.state.foodOpened}  closeFood={this.closeFood}/>
         <Contracts/>
         <FooterContainer/>
       </div>

@@ -31,7 +31,28 @@
     align-items: center;
 }
 
-.DDImg img {
-    max-width: 450px;
-    border-radius: 15px;
+.DDContainer {
+    text-align: center;
 }
+
+.DD {
+    max-height: 700px;
+    max-width: 700px;
+    margin-bottom: 50px;
+    border: rgb(73, 134, 226) solid 10px;
+    border-radius: 15px
+
+}
+
+.big {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+}
+
+@media screen and (max-width: 750px) {
+    .DDImg {
+        max-width: 95vw;
+    }
+  }

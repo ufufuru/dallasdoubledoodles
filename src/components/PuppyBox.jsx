@@ -6,7 +6,7 @@ function PuppyBox(props) {
     if (props.openedPuppy.name == null) return null
     else return (
         <div className="PuppyBox slider" onClick={props.closePuppy}>
-            <a className="closePuppy"></a>
+            <a className="closePuppy" href="#doodles"></a>
             <Container className="PuppyInfo">
                 <Row>
                     <Col xs="12" className="PuppyImage">

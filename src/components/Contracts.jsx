@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText, CustomInput } from 'reactstrap'
-import './Contracts.css'
+import { Container, Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap'
+import './Contracts.css' 
 
 function Contracts(props) {
     return (
@@ -164,7 +164,7 @@ function Contracts(props) {
                                 <Label for="traits">What traits are you looking for in a puppy?</Label>
                                 <Input type="textarea" name="traits" id="traits" placeholder="Please describe any traits or personality type you desire in your future puppy, such as: coat type, color, temperament, etc."/>
                             </FormGroup>
-                            <Button type="submit">Submit 🐾</Button>
+                            <Button type="submit">Submit <span role="img" aria-label="paw_prints">🐾</span></Button>
                         </Form>
                     </Col>
                 </Row>

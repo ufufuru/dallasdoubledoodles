@@ -5,7 +5,7 @@ import './JumbotronContainer.css'
 function JumbotronContainer() {
     return (
         <div className="JumboNav">
-            <Navbar>
+            <Navbar className="NavBar">
                 <Nav>
                     <NavItem>
                         <NavLink href="#info">About Us</NavLink>

@@ -1,6 +1,6 @@
 import React from 'react'
 import GalleryPhoto from './GalleryPhoto'
-import { Container, Row, Col } from 'reactstrap'
+import { Container } from 'reactstrap'
 import './PhotoContainer.css'
 
 function PhotoContainer(props) {

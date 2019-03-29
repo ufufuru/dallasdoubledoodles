@@ -4,17 +4,20 @@ import './InfoContainer.css'
 
 function InfoContainer() {
     return (
-        <div className="InfoContainer" id="info">
+        <div className="InfoContainer">
             <Container>
                 <Row>
-                    <Col sm="12" md="6" className="DDImg">
-                        <img src="img/doubledoodle.jpg" alt="Double Doodle"/>
+                    <Col xs="12" md="12" className="DDImg">
+                        <img src="img/doubledoodle.jpg" alt="Double Doodle"className="DD"/>
                     </Col>
-                    <Col>
+                </Row>
+                <Row>
+                    <Col sm="12" md="612" className="DDIinfo">
                         <div className="AboutUs">
                             <p>
-                                What are double
-                                doodles? They are cross between a labradoodle and golden-doodle. A labradoodle is a cross between a
+                                <span className="big">What are double
+                                doodles?</span> What are double
+                                doodles? They are a cross between a labradoodle and golden-doodle. A labradoodle is a cross between a
                                 poodle which can be standard or miniature. All of our doodles will be medium to large in size ranging
                                 from 50-70 pounds. A golden-doodle is a cross between a poodle and golden retriever. Poodles remain the
                                 second smartest dog in the purebred world along with being very loyal and protective, while Labrador

@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import { Container } from 'reactstrap'
 import './TileResult.css'
 
 function TileResult(props) {
-   if (props.openedTile == "money") return (
+   if (props.openedTile === "money") return (
         <div className="TileResult Money">
             <Container fluid>
                 <p>There is a 300.00 non-refundable deposit that can be mailed in with application or sent via venmo to
@@ -13,7 +13,7 @@ function TileResult(props) {
             </Container>
         </div>
     )
-    if (props.openedTile == "medicine") return (
+    if (props.openedTile === "medicine") return (
         <div className="TileResult Medicine">
             <Container fluid>
                 <p>Puppies will be given first set up vaccines and dewormed. It is important you keep up with vaccines. We
@@ -24,7 +24,7 @@ function TileResult(props) {
             </Container>
         </div>
     )
-    if (props.openedTile == "food") return (
+    if (props.openedTile === "food") return (
         <div className="TileResult Food">
             <Container fluid>
                 <p>We will also provide small bag of the puppy food they have been given which is Fromm gold puppy. You
@@ -33,13 +33,13 @@ function TileResult(props) {
                     wheat. Less than one percent of all dogs are allergic to wheat and actually need it for cardiovascular
                     health. Just because gluten is bad for adults does not mean it is bad for dogs just as we can eat grapes
                     without issue but if your dog gets into grapes, it can be lethal due to causing kidneys to shut down. You
-                    can click here(will send picture of the list) for a list of human foods that dogs can and can’t eat. It is best
+                    can click <span onClick={props.openFood} className="DogFood">here</span> for a list of human foods that dogs can and can’t eat. It is best
                     to feed your dog two times daily with a set time to eat and not allow grazing all day long.
                 </p>
             </Container>
         </div>
     )
-    if (props.openedTile == "training") return (
+    if (props.openedTile === "training") return (
         <div className="TileResult Training">
             <Container fluid>
                 <p>If you are first time puppy/dog owner, training is highly recommended. We recommend you have
