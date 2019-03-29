@@ -6,8 +6,8 @@ function TileResult(props) {
    if (props.openedTile === "money") return (
         <div className="TileResult Money">
             <Container fluid>
-                <p>There is a 300.00 non-refundable deposit that can be mailed in with application or sent via venmo to
-                    XXXXXX-XXXXX. The final payment of 1700.00 is due at time of pick up with cash or venmo. If you
+                <p>There is a 300.00 non-refundable deposit that can be mailed in with application or sent via <a href="https://venmo.com/">Venmo</a> to
+                    Christiane-jamieson. The final payment of 1700.00 is due at time of pick up with cash or venmo. If you
                     choose to right a personal check, it must clear the bank before you pick up your puppy.
                 </p>
             </Container>

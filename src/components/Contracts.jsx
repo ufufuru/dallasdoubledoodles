@@ -9,7 +9,7 @@ function Contracts(props) {
             <Container>
                 <Row>
                     <Col className="Application">
-                        <Form action="https://formspree.io/obadere@gmail.com" method="POST">
+                        <Form action="https://formspree.io/Christiane.Bell@bswhealth.org" method="POST">
                             <Row form>
                                 <Col md={3}>
                                     <FormGroup>
