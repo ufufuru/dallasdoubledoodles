@@ -2,7 +2,7 @@
   "name": "dallasdoubledoodles",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://ufufuru.github.io/dallasdoubledoodles",
+  "homepage": "https://ufufuru.github.io",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
