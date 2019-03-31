@@ -40,7 +40,7 @@ function PuppyContainer(props) {
                 <Row>
                     <Col>
                         <img src="img/annabelle_thumb.png" alt="Anabelle" onClick={props.openPuppy.bind(this, annabelle.name, annabelle.info, annabelle.image)}/>
-                        <h2>Annabelle</h2>
+                        <h2>Anabelle</h2>
                     </Col>
                     <Col>
                         <img src="img/tucker_thumb.png" alt="Tucker" onClick={props.openPuppy.bind(this, tucker.name, tucker.info, tucker.image)}/>
