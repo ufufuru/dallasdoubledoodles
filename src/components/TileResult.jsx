@@ -19,7 +19,7 @@ function TileResult(props) {
                 <p>Puppies will be given first set up vaccines and dewormed. It is important you keep up with vaccines. We
                     recommend you schedule to see your vet when your puppy is 10-12 weeks old. We use VCA location on
                     Central Expressway in Dallas, Dr. Troy Cobb. They have puppy and adult well care plans that help you
-                    budget for routine veterinary costs. They can also place a chip in case your puppy/dog wonders off.
+                    budget for routine veterinary costs. They can also place a chip in case your puppy/dog wanders off.
                 </p>
             </Container>
         </div>
@@ -28,7 +28,7 @@ function TileResult(props) {
         <div className="TileResult Food">
             <Container fluid>
                 <p>We will also provide small bag of the puppy food they have been given which is Fromm gold puppy. You
-                    can find this at Hollywood feed and chewy.com. Good nutrition is important in all stages of a dog’s life.
+                    can find this at Hollywood feed and other online retailers. Good nutrition is important in all stages of a dog’s life.
                     Foods without fillers are ideal. Food does not need to be wheat free unless your dog has an allergy to
                     wheat. Less than one percent of all dogs are allergic to wheat and actually need it for cardiovascular
                     health. Just because gluten is bad for adults does not mean it is bad for dogs just as we can eat grapes
