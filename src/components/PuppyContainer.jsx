@@ -4,7 +4,7 @@ import './PuppyContainer.css'
 
 function PuppyContainer(props) {
     const annabelle = {
-        name: 'Annabelle',
+        name: 'Anabelle',
         info: `Miss Anabelle, our Mother, is a two year old second generation labradoodle we bought as a puppy.
         Anabelle’s mother and father are both labradoodles and both cream/apricot in color. Anabelle is the
         reason we decided to breed. We had so many people ask us if we were going to breed her because as a
@@ -34,12 +34,12 @@ function PuppyContainer(props) {
             <Container>
                 <Row>
                     <Col>
-                        <h1>Click on Annabelle or Tucker to learn more about our doodles!</h1>
+                        <h1>Click on Anabelle or Tucker to learn more about our doodles!</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <img src="img/annabelle_thumb.png" alt="Annabelle" onClick={props.openPuppy.bind(this, annabelle.name, annabelle.info, annabelle.image)}/>
+                        <img src="img/annabelle_thumb.png" alt="Anabelle" onClick={props.openPuppy.bind(this, annabelle.name, annabelle.info, annabelle.image)}/>
                         <h2>Annabelle</h2>
                     </Col>
                     <Col>

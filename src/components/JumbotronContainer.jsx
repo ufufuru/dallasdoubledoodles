@@ -27,7 +27,7 @@ function JumbotronContainer() {
             <Jumbotron>
                 <div className="JumboText">
                     <h1>Dallas <span className="Orange">Double</span> Doodles</h1>
-                    <p>Responsible Breeders in Northeast Dallas</p>
+                    <p>Responsible Breeders in East Dallas</p>
                 </div>
             </Jumbotron>
         </div>
