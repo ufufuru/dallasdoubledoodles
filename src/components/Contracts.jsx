@@ -200,7 +200,7 @@ function Contracts(props) {
             <Row>
                 <Col sm="12" md="6">
                     <h5>DNA/Genetics</h5>
-                    <p>Both Anabelle and Tucker tested negative for 162 genetic mutations common to their breeds</p>
+                    <p>Both Anabelle and Tucker tested negative for 162 genetic mutations common to their breeds.</p>
                 </Col>
                 <Col sm="12" md="6">
                     <h5>Right of First Refusal</h5>
