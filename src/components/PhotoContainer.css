@@ -7,3 +7,11 @@
     background-repeat: repeat;
     padding-bottom: 50px;
 }
+
+.PuppiesAnnouncement {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    width: 50%;
+    margin-left: 25%;
+    padding: 30px 0;
+}

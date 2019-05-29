@@ -30,7 +30,27 @@ const imageList = [
     {
         id: 7,
         src: 'img/dogs/dog7.jpg',
-        comment: 'Annabelle at 15 months'
+        comment: ''
+    },
+    {
+        id: 8,
+        src: 'img/dogs/puppies1.png',
+        comment: ''
+    },
+    {
+        id: 9,
+        src: 'img/dogs/puppies2.png',
+        comment: ''
+    },
+    {
+        id: 10,
+        src: 'img/dogs/puppies3.png',
+        comment: ''
+    },
+    {
+        id: 11,
+        src: 'img/dogs/puppies4.png',
+        comment: ''
     }
 ]
 
